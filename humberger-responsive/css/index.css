@@ -1,0 +1,54 @@
+.container__header{
+    display: flex;
+}
+.nav-item a:hover{
+    background:rgba(0,0,0,.1);
+}
+.line__shadow{
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+}
+.nav__right a{
+    border-right: 1px solid #f4f4f4;
+    padding: 15px 30px;
+}
+.nav__left{
+    width:100%;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.nav__black__color{
+    color: black;
+}
+.button__toggle{
+    padding: 15px 30px;
+}
+@media (max-width: 767.5px) { 
+    .container__header{
+        display: block;
+        width:100%;
+    }
+    .nav__left{
+        width:80%;
+    }
+    .nav__right a{
+        padding: 15px 30px;
+    }
+}
+@media (max-width: 532px) { 
+    .nav__left{
+        width:74%;
+    }
+}
+@media (max-width: 425px) { 
+    .nav__left{
+        width:70%;
+    }
+}
+@media (max-width: 375px) { 
+    .nav__left{
+        width:65%;
+    }
+}
